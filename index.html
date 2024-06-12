@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Two</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./responsive.css">
+    
+</head>
+<body class="body-container">
+    <!-- navigation start  -->
+   <section style="margin-top: 30px;" class="nav-container">
+    <div class="navigation-bar">
+        <div class="logo">
+            <img src="./img/header/logo.png" alt="">
+        </div>
+        <div class="nav-right">
+            <div class="nav-menu">
+                <h1>Home</h1>
+                <h1>Cart</h1>
+            </div>
+            <div class="nav-search-box-container">
+                <div class="search-left">
+                    <svg style="width: 20px;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                      </svg>
+                      
+                    <h1>Search</h1>
+                </div>
+                <div class="cart">
+                    <svg style="width: 25px; " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                      </svg>
+                      
+                </div>
+            </div>
+        </div>
+    </div>
+   </section> 
+   <!-- navigation end  -->
+  <!-- header start    -->
+   <section style="margin-top: 50px;" class="header-container">
+    <div class="header-full-body">
+
+        <div class="header-left">
+            <div class="bike-delivery">
+                <div>
+                    <h3 style="color:var(--secondary-color);">Bike Delivery</h3>
+                </div>
+                <div style="background-color: aliceblue;border-radius: 50px;height: 50px;width: 50px;">
+                    <img style="border-radius: 50px;width: 100%;height: 100%;" src="./img/header/bike.png" alt="">
+                </div>
+            </div>
+            <div class="header-title">
+                <h1 style="text-transform: uppercase;">The Fastest <br>
+                    <span style="color: var(--secondary-color);">Delivery</span> <br> In <span style="color: var(--secondary-color);">Your City</span></h1>
+                <h3>Order delicious fast food online! We offer a wide variety of options and guarantee <br> quick delivery. Fresh, hot, and ready to satisfy your cravings. Enjoy our fast service <br> and tasty meals. Order now!</h3>
+            </div>
+            <div class="header-order-full">
+                <div class="order-now">
+                    <h2>Order Now</h2>
+                </div>
+                <div class="play-icon">
+                    <i  class="fa-solid fa-play"></i>
+                </div>
+                <div class="order-process">
+                    <h2>Order Process</h2>
+                </div>
+            </div>
+        </div>
+        <div class="header-right">
+            <div class="catalog">
+                <div class="catalog-writing">
+                    <h2 style="padding-top: 155px;">Burger</h2>
+                    <h3 style="margin-bottom: 0;">Mushroom Sauce</h3>
+                    <h3 ><span style="color: red;">$</span>5.15</h3>
+                </div>
+                <div class="catalog-image">
+                    <img src="./img/header/header_burger_1.png" alt="">
+                </div>
+            </div>
+            <div class="catalog">
+                <div class="catalog-writing">
+                    <h2 style="padding-top: 155px;">Food Combo</h2>
+                    <h3 style="margin-bottom: 0;">Mushroom Sauce</h3>
+                    <h3 ><span style="color: red;">$</span>9.15</h3>
+                </div>
+                <div style="left: -38px;" class="catalog-image">
+                    <img src="./img/header/header_burger_2.png" alt="">
+                </div>
+            </div>
+            <div class="catalog">
+                <div class="catalog-writing">
+                    <h2 style="padding-top: 155px;">Pizza</h2>
+                    <h3 style="margin-bottom: 0;">Mushroom Sauce</h3>
+                    <h3 ><span style="color: red;">$</span>6.15</h3>
+                </div>
+                <div style="left: -39px;" class="catalog-image">
+                    <img src="./img/header/header_pizza.png" alt="">
+                </div>
+            </div>
+            <div class="catalog">
+                <div class="catalog-writing">
+                    <h2 style="padding-top: 155px;">Cake</h2>
+                    <h3 style="margin-bottom: 0;">Mushroom Sauce</h3>
+                    <h3 ><span style="color: red;">$</span>5.15</h3>
+                </div>
+                <div style="left: -30px;" class="catalog-image">
+                    <img src="./img/header/header_cake_1.png" alt="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+   </section>
+   <!-- header end  -->
+    <section class="info-container">
+        <div class="info-full">
+            <div class="info-left">
+                <div class="info-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                      </svg>
+                      
+                </div>
+                <div>
+                    <h2>Today 10:00am - 10:00pm</h2>
+                <h3>Working time</h3>
+                </div>
+            </div>
+
+            <div class="vertical-line"></div>
+
+            <div class="info-left">
+                <div class="info-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                      </svg>
+                      
+                      
+                </div>
+                <div>
+                    <h2>Today 10:00am - 10:00pm</h2>
+                <h3>Working time</h3>
+                </div>
+            </div>
+
+            <div class="vertical-line"></div>
+
+            <div class="info-left">
+                <div class="info-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 3.75v4.5m0-4.5h-4.5m4.5 0-6 6m3 12c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 0 1 4.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.054.902-.417 1.173l-1.293.97a1.062 1.062 0 0 0-.38 1.21 12.035 12.035 0 0 0 7.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 0 1 1.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 0 1-2.25 2.25h-2.25Z" />
+                      </svg>
+                      
+                      
+                </div>
+                <div>
+                    <h2>Today 10:00am - 10:00pm</h2>
+                <h3>Working time</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- product start  -->
+     <section class="product-container">
+        <div class="product-header">
+            <h3 style="color: var(--secondary-color);">Product</h3>
+            <h2> Most Popular Items
+                
+            </h2>
+        </div>
+        <div class="product-grid">
+            <div class="product-1">
+                <div class="product-photo">
+                    <img src="./img/product/gyro-sandwich1.png" alt="">
+                </div>
+                <div class="product-details">
+                    <div class="product-details-left">
+                        <h1>Gyro Sandwhic</h1>
+                        <div class="add-cart">
+                            <h3 style="color: white;">Add To Cart</h3>
+                        </div>
+                    </div>
+                    <div class="product-details-right">
+                        <h2><span style="margin-right: 10px;"><img style="height: 20px;" src="./img/other/Star2.png" alt=""></span>4.9</h2>
+                        <div class="product-price">
+                            <h2>$15.00</h2>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="product-1">
+                <div class="product-photo">
+                    <img src="./img/product/beef-enchiladas.png" alt="">
+                </div>
+                <div class="product-details">
+                    <div class="product-details-left">
+                        <h1>Enchilade</h1>
+                        <div class="add-cart">
+                            <h3 style="color: white;">Add To Cart</h3>
+                        </div>
+                    </div>
+                    <div class="product-details-right">
+                        <h2><span style="margin-right: 10px;"><img style="height: 20px;" src="./img/other/Star2.png" alt=""></span>5.0</h2>
+                        <div class="product-price">
+                            <h2>$25.50</h2>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="product-1">
+                <div class="product-photo">
+                    <img src="./img/product/green-beans.png" alt="">
+                </div>
+                <div class="product-details">
+                    <div class="product-details-left">
+                        <h1>Green Beans</h1>
+                        <div class="add-cart">
+                            <h3 style="color: white;">Add To Cart</h3>
+                        </div>
+                    </div>
+                    <div class="product-details-right">
+                        <h2><span style="margin-right: 10px;"><img style="height: 20px;" src="./img/other/Star2.png" alt=""></span>4.9</h2>
+                        <div class="product-price">
+                            <h2>$12.00</h2>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="product-1">
+                <div class="product-photo">
+                    <img src="./img/product/top-view-pepperoni-pizza-with-mushroom-sausages-bell-pepper-olive-corn-black-wooden_141793-2158 1.png" alt="">
+                </div>
+                <div class="product-details">
+                    <div class="product-details-left">
+                        <h1>Pizza</h1>
+                        <div class="add-cart">
+                            <h3 style="color: white;">Add To Cart</h3>
+                        </div>
+                    </div>
+                    <div class="product-details-right">
+                        <h2><span style="margin-right: 10px;"><img style="height: 20px;" src="./img/other/Star2.png" alt=""></span>5.0</h2>
+                        <div class="product-price">
+                            <h2>$18.50</h2>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="product-1">
+                <div class="product-photo">
+                    <img src="./img/product/Chicken-Pot-Pie.png" alt="">
+                </div>
+                <div class="product-details">
+                    <div class="product-details-left">
+                        <h1>Chicken Pot Pie</h1>
+                        <div class="add-cart">
+                            <h3 style="color: white;">Add To Cart</h3>
+                        </div>
+                    </div>
+                    <div class="product-details-right">
+                        <h2><span style="margin-right: 10px;"><img style="height: 20px;" src="./img/other/Star2.png" alt=""></span>4.9</h2>
+                        <div class="product-price">
+                            <h2>$25.00</h2>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="product-1">
+                <div class="product-photo">
+                    <img src="./img/product/green-salad.png" alt="">
+                </div>
+                <div class="product-details">
+                    <div class="product-details-left">
+                        <h1>Green Salad</h1>
+                        <div class="add-cart">
+                            <h3 style="color: white;">Add To Cart</h3>
+                        </div>
+                    </div>
+                    <div class="product-details-right">
+                        <h2><span style="margin-right: 10px;"><img style="height: 20px;" src="./img/other/Star2.png" alt=""></span>4.9</h2>
+                        <div class="product-price">
+                            <h2>$15.00</h2>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="see-more">
+            <button>See More Product </button>
+        </div>
+     </section>
+     
+     <!-- product end  -->
+
+    <!-- additional products -->
+    <section class="product-container additional-products" style="display: none;">
+        <div class="product-grid">
+            <div class="product-1">
+                <div class="product-photo">
+                    <img src="./img/product/gyro-sandwich1.png" alt="">
+                </div>
+                <div class="product-details">
+                    <div class="product-details-left">
+                        <h1>Gyro Sandwhic</h1>
+                        <div class="add-cart">
+                            <h3 style="color: white;">Add To Cart</h3>
+                        </div>
+                    </div>
+                    <div class="product-details-right">
+                        <h2><span style="margin-right: 10px;"><img style="height: 20px;" src="./img/other/Star2.png" alt=""></span>4.9</h2>
+                        <div class="product-price">
+                            <h2>$15.00</h2>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="product-1">
+                <div class="product-photo">
+                    <img src="./img/product/beef-enchiladas.png" alt="">
+                </div>
+                <div class="product-details">
+                    <div class="product-details-left">
+                        <h1>Enchilade</h1>
+                        <div class="add-cart">
+                            <h3 style="color: white;">Add To Cart</h3>
+                        </div>
+                    </div>
+                    <div class="product-details-right">
+                        <h2><span style="margin-right: 10px;"><img style="height: 20px;" src="./img/other/Star2.png" alt=""></span>5.0</h2>
+                        <div class="product-price">
+                            <h2>$25.50</h2>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="product-1">
+                <div class="product-photo">
+                    <img src="./img/product/green-beans.png" alt="">
+                </div>
+                <div class="product-details">
+                    <div class="product-details-left">
+                        <h1>Green Beans</h1>
+                        <div class="add-cart">
+                            <h3 style="color: white;">Add To Cart</h3>
+                        </div>
+                    </div>
+                    <div class="product-details-right">
+                        <h2><span style="margin-right: 10px;"><img style="height: 20px;" src="./img/other/Star2.png" alt=""></span>4.9</h2>
+                        <div class="product-price">
+                            <h2>$12.00</h2>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="product-1">
+                <div class="product-photo">
+                    <img src="./img/product/top-view-pepperoni-pizza-with-mushroom-sausages-bell-pepper-olive-corn-black-wooden_141793-2158 1.png" alt="">
+                </div>
+                <div class="product-details">
+                    <div class="product-details-left">
+                        <h1>Pizza</h1>
+                        <div class="add-cart">
+                            <h3 style="color: white;">Add To Cart</h3>
+                        </div>
+                    </div>
+                    <div class="product-details-right">
+                        <h2><span style="margin-right: 10px;"><img style="height: 20px;" src="./img/other/Star2.png" alt=""></span>5.0</h2>
+                        <div class="product-price">
+                            <h2>$18.50</h2>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="product-1">
+                <div class="product-photo">
+                    <img src="./img/product/Chicken-Pot-Pie.png" alt="">
+                </div>
+                <div class="product-details">
+                    <div class="product-details-left">
+                        <h1>Chicken Pot Pie</h1>
+                        <div class="add-cart">
+                            <h3 style="color: white;">Add To Cart</h3>
+                        </div>
+                    </div>
+                    <div class="product-details-right">
+                        <h2><span style="margin-right: 10px;"><img style="height: 20px;" src="./img/other/Star2.png" alt=""></span>4.9</h2>
+                        <div class="product-price">
+                            <h2>$25.00</h2>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="product-1">
+                <div class="product-photo">
+                    <img src="./img/product/green-salad.png" alt="">
+                </div>
+                <div class="product-details">
+                    <div class="product-details-left">
+                        <h1>Green Salad</h1>
+                        <div class="add-cart">
+                            <h3 style="color: white;">Add To Cart</h3>
+                        </div>
+                    </div>
+                    <div class="product-details-right">
+                        <h2><span style="margin-right: 10px;"><img style="height: 20px;" src="./img/other/Star2.png" alt=""></span>4.9</h2>
+                        <div class="product-price">
+                            <h2>$15.00</h2>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+      <!-- service start  -->
+    <section class="service-container">
+        <div class="service-header">
+            <h3 style="color: var(--secondary-color);">Service</h3>
+            <h2> Why Choose Our Favorite Food
+                
+            </h2>
+        </div>
+        <div class="service-flex">
+            <div class="service-box">
+                <div class="service-icon">
+                    <img src="./img/other/fork-knife-01.png" alt="">
+                </div>
+                <div class="service-details">
+                    <h2>
+                        Qualityfull Food
+                    </h2>
+                    <h3>Our dishes are prepared with the finest ingredients, ensuring every bite is a delightful culinary experience you'll savor.</h3>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-icon">
+                    <img src="./img/other/spoon-fork-01.png" alt="">
+                </div>
+                <div class="service-details">
+                    <h2>
+                        Healthy Food
+                    </h2>
+                    <h3>We offer a range of nutritious options, crafted to support your well-being without compromising on flavor or satisfaction.</h3>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-icon">
+                    <img src="./img/other/fork-knife-01.png" alt="">
+                </div>
+                <div class="service-details">
+                    <h2>
+                        Fast Delivery
+                    </h2>
+                    <h3>Enjoy your favorite meals promptly with our efficient delivery service, ensuring hot, fresh food at your doorstep in no time.</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- service end  -->
+    <section class="testimonial-container">
+        <div class="service-header">
+            <h3 style="color: var(--secondary-color);">Testimonials</h3>
+            <h2> Our Happy Client Says
+                
+            </h2>
+        </div>
+        <div class="testimonial-full">
+            <div class="testimonial-left">
+                <div class="test-left-up">
+                    <div class="ceo-full">
+                        <div class="ceo-image">
+                            <img src="./img/other/ceo.png" alt=""> 
+                        </div>
+                        <div class="test-details">
+                            <h2>William Campebel</h2>
+                            <h3>CEO & Co-Founder</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="test-left-down">
+                    <p>"Meet William Camebel, the visionary CEO. Passionate about culinary excellence and innovation, Alex leads with a commitment to quality, health, and swift service, ensuring every customer enjoys an unforgettable dining experience. Join us and taste the dedication behind every dish!"</p>
+                </div>
+            </div>
+            <div class="testimonial-right">
+                <img src="./img/other/testimonial_burger.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- testimonial end  -->
+     <section class="subscriber-container">
+        <div class="subscriber-full">
+            <div class="subscriber-left">
+                <img src="./img/other/subscriber_burger.png" alt="">
+            </div>
+            <div class="subscriber-right">
+                <h2>Subscribe Our Newsletter</h2>
+                <p>
+                    Subscribe to our newsletter for exclusive offers, delicious recipes, and the latest news. Stay updated with our special events and promotions, and never miss out on a tasty deal or culinary inspiration!</p>
+                    <div class="form">
+                        <form id="subscribe-form">
+                            <input type="email" placeholder="Type your email...">
+                            <button>SUBSCRIBE</button>
+                        </form>
+                    </div>
+                    <br>
+                    <div id="thank-you-message" style="display: none;"></div>   
+            </div>
+        </div>
+     </section>
+
+     <!-- footer start  -->
+      <section class="footer-container">
+        <div class="footer-1">
+            <div>
+                <img src="./img/header/logo.png" alt="">
+            </div>
+            <div>
+                <h3>Order delicious fast food online! We offer a wide variety of options and guarantee
+                    quick delivery. Fresh, hot, and ready to satisfy your cravings. Enjoy our fast service
+                    and tasty meals. Order now!</h3>
+            </div>
+            <div style="display: flex;gap: 10px;">
+                <div class="social-icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </div>
+                <div class="social-icon">
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div class="social-icon">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <div class="social-icon">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+        <div class="footer-2">
+           <h2>Opening Restaurant</h2>
+           <h3>Sat-Wet: 09:00am-10:00PM <br> Thursdayt: 09:00am-11:00PM <br> Friday: 09:00am-8:00PM</h3> 
+        </div>
+        <div class="footer-2">
+           <h2>User Link</h2>
+           <h3>About Us <br> Contact Us <br>Order Delivery <br> Payment & Tex <br> Terms of Services</h3> 
+        </div>
+        <div class="footer-2">
+           <h2>Contact Us</h2>
+           <h3>Mohammadpur, Dhaka <br>+88 017 0000 0000 <br>+88 018 0000 0000</h3> 
+           <form class="footer-email"  >
+            <input style="border: none;" type="email" placeholder="Enter your email...">
+            <button style="background-color: var(--secondary-color);height: 30px;border: none;border-radius: 50px;padding: 3px;" class="footer-button"> <img style="height: 100%;" src="./img/other/white-chevron-01.png" alt="">
+              </button>
+           </form>
+        </div>
+      </section>
+
+
+      <script>
+        const seeMoreButton = document.querySelector('.see-more button');
+        const additionalProducts = document.querySelector('.additional-products');
+    
+        seeMoreButton.addEventListener('click', () => {
+            additionalProducts.style.display = additionalProducts.style.display === 'none' ? 'block' : 'none';
+            seeMoreButton.style.display = 'none';
+        });
+    
+        const subscribeForm = document.getElementById('subscribe-form');
+        const thankYouMessage = document.getElementById('thank-you-message');
+    
+        subscribeForm.addEventListener('submit', (event) => {
+            event.preventDefault(); 
+    
+            thankYouMessage.textContent = 'Thank you for subscribing!';
+            thankYouMessage.style.display = 'block';
+    
+            subscribeForm.reset();
+        });
+    </script>
+</body>
+</html>
